@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&family=Orbitron:wght@400;500;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: #fff;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: "Orbitron", sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+/* Spacing and size settings */
+img {
+  /* width: 100%; */
+}
+.space-right {
+  margin-right: 20px;
+}
+.accent-bold {
+  font-weight: bold;
+}
+.accent-line-height {
+  line-height: 50%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+  /* border: 2px solid pink; */
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Logo Section settings */
+.top-heading {
+  padding: 50px 0;
+}
+.logo {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+/* Hero Section settings */
+.hero {
+  padding: 100px 0;
+}
+.hero-background {
+  background-image: url("../images/mandalorian-poster-2.jpeg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.hero-text {
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-size: 36px; */
+  text-align: center;
+  width: 40%;
+  padding: 150px 0;
+}
+.hero-text h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.hero-text h3 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  font-style: italic;
+}
+.hero-text p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.hero-text h1,
+.hero-text h3,
+.hero-text h5 {
+  color: gold;
+}
+.btn {
+  text-decoration: none;
+  border: 2px solid rgb(214, 214, 38);
+  border-radius: 100px;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+.btn-disney {
+  background-color: rgb(214, 214, 38);
+  color: black;
+}
+.btn-trailer {
+  background-color: black;
+  color: #fff;
+}
+.btn-disney:hover {
+  opacity: 0.8;
+}
+.btn-trailer:hover {
+  border-color: #fff;
+}
+/* Middle Section settings */
+.middle {
+  padding: 75px 0;
+}
+.lefthand-img-size {
+  width: 475px;
+}
+.col-lefthand-img {
+  width: 30%;
+}
+.col-text {
+  width: 65%;
+  max-width: 700px;
+  padding: 0 50px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.col-text p,
+.col-text a {
+  font-size: 16px;
+  color: grey;
+}
+.col-text h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+.rating-14-img {
+  display: block;
+  margin: 25px 0;
+  width: 40px;
+}
+.col-text a {
+  text-decoration: none;
+}
+.col-text a:hover,
+.col-text a:focus {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
