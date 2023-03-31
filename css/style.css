@@ -10,6 +10,8 @@ body {
   background: black;
   color: #fff;
   font-size: 21px;
+  /* background-image: url("../images/space-bkg.jpg");
+  background-size: cover; */
   font-family: Arial, Helvetica, sans-serif;
   font-family: "Kanit", sans-serif;
   /* font-family: "Orbitron", sans-serif; */
@@ -28,7 +30,7 @@ img {
 .accent-line-height {
   line-height: 50%;
 }
-
+/* General settings */
 .container {
   width: 90%;
   margin: 0 auto;
@@ -40,9 +42,9 @@ img {
   justify-content: space-between;
 }
 
-/* Logo Section settings */
+/* Header Logo Section settings */
 .top-heading {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .logo {
   display: block;
@@ -60,6 +62,20 @@ img {
   color: #fff;
   letter-spacing: 3px;
 }
+/* Top Nav Section settings */
+
+.main-nav-list {
+  font-size: 16px;
+  list-style: none;
+}
+.main-nav-item {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+}
+.main-nav-item:hover {
+  opacity: 1;
+}
 /* Hero Section settings */
 .hero {
   padding: 100px 0;
@@ -73,7 +89,6 @@ img {
 }
 .hero-text {
   font-family: "Roboto Condensed", sans-serif;
-  /* font-size: 36px; */
   text-align: center;
   width: 40%;
   padding: 150px 0;
@@ -82,36 +97,39 @@ img {
   font-size: 65px;
   font-weight: 700;
 }
-.hero-text h3 {
-  font-family: "Orbitron", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  font-style: italic;
-}
 .hero-text p {
   font-size: 30px;
   font-weight: bolder;
 }
+.hero-text h5 {
+  font-size: 26px;
+}
 .hero-text h1,
 .hero-text h3,
 .hero-text h5 {
-  color: gold;
+  color: #fcc433;
+}
+.star-wars-logo {
+  width: 250px;
 }
 .btn {
   text-decoration: none;
-  border: 2px solid rgb(214, 214, 38);
+  border: 2px solid #ffe81f;
   border-radius: 100px;
   padding: 10px 40px;
   font-size: 16px;
 }
 .btn-disney {
-  background-color: rgb(214, 214, 38);
+  background-color: #ffe81f;
+  font-weight: bold;
   color: black;
 }
 .btn-trailer {
   background-color: black;
   color: #fff;
+  font-weight: bold;
 }
+
 .btn-disney:hover {
   opacity: 0.8;
 }
